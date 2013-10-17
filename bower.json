@@ -1,0 +1,22 @@
+{
+  "name": "angular-off",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gdi2290/angular-off",
+  "authors": [
+    "gdi2290 <github@gdi2290.com>"
+  ],
+  "main": "angular-off.js",
+  "description": "Providing the method $off for $rootScope in Angular.js",
+  "ignore": [
+    "**/.*",
+    "*.yml",
+    "*.xml",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0"
+  }
+}
