@@ -20,12 +20,12 @@ You can download angular-momentjs by:
   angular.module('controllers', [])
     .controller('MainCtrl', function() {
 
-      $scope.$on('$routeChangeError', function(event, current, prevous, rejection) {
+      $scope.$on('$routeChangeError', function alertEvent(event, current, prevous, rejection) {
         alert('Filed to change routes!');
       });
 
       $scope.button = function() {
-       $scope.$off('$routeChangeError');
+       $scope.$off('$routeChangeError', alertEvent);
       };
 
     });
