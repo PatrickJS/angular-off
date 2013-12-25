@@ -15,7 +15,9 @@ You can download angular-momentjs by:
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
 <script src="app/bower_components/angular-off/angular-off.js"></script>
 <script>
-  angular.module('YOUR_APP', ['controllers']);
+  angular.module('YOUR_APP', [
+    'controllers'
+  ]);
 
   angular.module('controllers', [])
     .controller('MainCtrl', function() {
