@@ -4,11 +4,11 @@ Providing the method $off for $rootScope in Angular.js
 
 #How do I add this to my project?
 
-You can download angular-momentjs by:
+You can download angular-off by:
 
-* (prefered) Using bower and running `bower install angular-momentjs --save`
-* Using npm and running `npm install angular-momentjs --save`
-* Downloading it manually by clicking [here to download development unminified version](https://raw.github.com/gdi2290/angular-momentjs/master/angular-momentjs.js)
+* (prefered) Using bower and running `bower install angular-off --save`
+* Using npm and running `npm install angular-off --save`
+* Downloading it manually by clicking [here to download development unminified version](https://raw.github.com/gdi2290/angular-off/master/angular-off.js)
 
 
 ````html
